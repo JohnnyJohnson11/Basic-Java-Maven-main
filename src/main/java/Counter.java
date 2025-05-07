@@ -10,20 +10,20 @@ public class Counter {
 		
 	public void reset() {
 		//Test Fail
-		//count = 1;
-		count=0;
+		count = 1;
+		//count=0;
 	}
 	
 	public void increment() {
 		//Test Fail
-		//count=count+2;
-		count++;
+		count=count+2;
+		//count++;
 	}
 	
 	public void decrement() {
 		//Test Fail
-		//count=count-2;
-		count--;
+		count=count-2;
+		//count--;
 	}
 	
 	public int getCount() {
