@@ -9,15 +9,15 @@ public class Counter {
 	}
 		
 	public void reset() {
-		count = 0;
+		count = 1;
 	}
 	
 	public void increment() {
-		count++;
+		count=count+2;
 	}
 	
 	public void decrement() {
-		count--;
+		count=count-2;
 	}
 	
 	public int getCount() {
